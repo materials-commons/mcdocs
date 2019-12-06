@@ -51,10 +51,10 @@
                 </div>
 
                 <div class="flex flex-1 justify-end items-center text-right md:pl-10">
-                    <a href="#" class="flex justify-center items-center bg-blue-500 text-white border border-blue-500 h-10 mr-4 px-5 rounded-full focus:outline-none">
+                    <a href="https://materialscommons.miserver.it.umich.edu/login" class="flex justify-center items-center bg-blue-500 text-white border border-blue-500 h-10 mr-4 px-5 rounded-full focus:outline-none">
                         Login
                     </a>
-                    <a href="#" class="flex justify-center items-center bg-blue-500 text-white border border-blue-500 h-10 mr-4 px-5 rounded-full focus:outline-none">
+                    <a href="https://materialscommons.miserver.it.umich.edu/register" class="flex justify-center items-center bg-blue-500 text-white border border-blue-500 h-10 mr-4 px-5 rounded-full focus:outline-none">
                         Register
                     </a>
                     @if ($page->docsearchApiKey && $page->docsearchIndexName)
