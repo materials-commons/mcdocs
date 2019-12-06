@@ -3,8 +3,8 @@
 return [
     'baseUrl' => '',
     'production' => false,
-    'siteName' => 'MaterialsCommons Documentation',
-    'siteDescription' => 'MaterialsCommons documentation site',
+    'siteName' => 'MaterialsCommons',
+    'siteDescription' => 'A site for Materials Scientists to collaborate, store and publish research.',
 
     // Algolia DocSearch credentials
     'docsearchApiKey' => '',

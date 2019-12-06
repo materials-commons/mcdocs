@@ -6,8 +6,8 @@ section: content
 ---
 
 # Overview
-Materials Commons allows you to easily load data from a spreadsheet. We call this process ETL, 
-which stands for (E)xtract, (T)ransform, and (L)oad. As long as you follow a few simple
+Materials Commons allows you to load data from a spreadsheet. We call this process ETL, 
+which stands for (E)xtract, (T)ransform, and (L)oad. As long as you follow a few
 rules, Materials Commons can read your spreadsheet and automatically create the samples,
 processing steps, measurements and process attributes.
 
@@ -188,13 +188,10 @@ column one is treated specially.
 ## Loading a Spreadsheet into Materials Commons
 
 To process a spreadsheet in Materials Commons you must have already uploaded the file into the project. After that you can use the spreadsheet to
-create a new experiment. To do this go to your project home page:
+create a new experiment. To do this go to your project and select create experiment.
 
-![Project Home Page](/assets/img/create-experiment-from-spreadsheet.png)
+If you have a spreadsheet loaded then the create experiment page will present a dropdown of the spreadsheets. Select
+one to use it to populate your experiment.
 
-In the main panel there are four buttons (starting with "START NEW EXPERIMENT"). The last one is labeled "NEW EXPERIMENT FROM SPREADSHEET". Press this button
-and follow it's prompts. If you are building a workflow with your spreadsheet make sure to review the "Building A Workflow" section
-above and to select "Second column is Parent column":
-
-![Create Experiment From Spreadsheet](images/create_experiment_from_spreadsheet.png)
+![Create Experiment From Spreadsheet](/assets/img/create-experiment-from-spreadsheet.png)
 

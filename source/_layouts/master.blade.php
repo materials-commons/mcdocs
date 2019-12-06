@@ -51,6 +51,12 @@
                 </div>
 
                 <div class="flex flex-1 justify-end items-center text-right md:pl-10">
+                    <a href="#" class="flex justify-center items-center bg-blue-500 text-white border border-blue-500 h-10 mr-4 px-5 rounded-full focus:outline-none">
+                        Login
+                    </a>
+                    <a href="#" class="flex justify-center items-center bg-blue-500 text-white border border-blue-500 h-10 mr-4 px-5 rounded-full focus:outline-none">
+                        Register
+                    </a>
                     @if ($page->docsearchApiKey && $page->docsearchIndexName)
                         @include('_nav.search-input')
                     @endif
@@ -71,10 +77,10 @@
         <footer class="bg-white text-center text-sm mt-12 py-4" role="contentinfo">
             <ul class="flex flex-col md:flex-row justify-center">
                 <li class="md:mr-2">
-                    &copy; <a href="https://tighten.co" title="Tighten website">Tighten</a> {{ date('Y') }}.
+                    &copy; <a href="https://prisms-center.org" title="PRISMS Website">PRISMS Center</a> {{ date('Y') }}.
                 </li>
 
-                <li>
+                <li class="md:ml-4">
                     Built with <a href="http://jigsaw.tighten.co" title="Jigsaw by Tighten">Jigsaw</a>
                     and <a href="https://tailwindcss.com" title="Tailwind CSS, a utility-first CSS framework">Tailwind CSS</a>.
                 </li>
