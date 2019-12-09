@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'baseUrl' => 'https://my-jigsaw-docs.com',
+    'baseUrl' => 'https://materialscommons.miserver.it.umich.edu/docs',
     'production' => true,
 
     // DocSearch credentials
