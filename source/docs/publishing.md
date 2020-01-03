@@ -5,7 +5,7 @@ extends: _layouts.documentation
 section: content
 ---
 
-# Overview
+# Publishing
 
 MaterialsCommons allows you to publish your research online. You have control over what is published and can always edit
 or change it as needed. You publish the research in a project. When you publishing using MaterialsCommons your files

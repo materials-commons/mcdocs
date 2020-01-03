@@ -5,7 +5,7 @@ extends: _layouts.documentation
 section: content
 ---
 
-# Overview
+# Globus
 
 MaterialsCommons uses the Globus file service for large scale file transfers. Globus allows MaterialsCommons to
 support large file requests in a reliable and safe way. Using the Globus integration you can upload your files
