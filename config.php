@@ -3,7 +3,7 @@
 return [
     'baseUrl' => '',
     'production' => false,
-    'siteName' => 'MaterialsCommons',
+    'siteName' => 'Materials Commons 2.0',
     'siteDescription' => 'A site for Materials Scientists to collaborate, store and publish research.',
 
     // Algolia DocSearch credentials
