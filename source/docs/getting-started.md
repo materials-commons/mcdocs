@@ -44,7 +44,7 @@ Once you have created a project you can set up who has access to it.
 To add collaborators to your project click on the "Users" link in the sidebar. Then click on "Modify Users" to add or
 remove users.
 
-![Users Page](/assets/img/users-page.png)
+![Users Page](/assets/img/project-members-page.png)
 
 The users page allows you to add and remove users from your project. **Only users who already have a Materials Commons Account
 can be added as collaborators**.
