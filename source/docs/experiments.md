@@ -20,9 +20,9 @@ link in the side nav.
 To create a new experiment select the "+ Create Experiment" link. An experiment requires a name and an optional 
 description.
 
-![Create Experiment](/assets/img/experiments/create-experiment.png)
+![Create Experiment](/assets/img/create-experiment-from-spreadsheet.png)
 
 ### Experiment Details
 An experiment is made up of workflows, processes, samples, and files.
 
-![Experiment Details](/assets/img/experiments/experiment-details.png)
+![Experiment Details](/assets/img/experiment-page.png)
