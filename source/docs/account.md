@@ -10,7 +10,7 @@ The account page shows you the details for your account allows you to update the
 to access your secret API Token if you are using the CLI or API. You can also update your user name, add your affiliations
 and description. Below you will find details on each section of your account.
 
-![Account](/assets/img/account/account-page.png)
+![Account](/assets/img/account-details.png)
 
 ### User Details
 Your account details include your name, description and affiliation. Updating your name will change how its displayed
@@ -38,3 +38,4 @@ and add this accounts email address to MaterialsCommons.
 You can change your existing password on the accounts page. Passwords must be at least 8 characters long.
 
 ![Change Password](/assets/img/account/password.png)
+
