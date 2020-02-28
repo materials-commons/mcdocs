@@ -28,13 +28,13 @@ return [
     'Publishing'                 => [
         'url'      => 'docs/publishing-data',
         'children' => [
-            'Publishing On Website' => '',
+            'Publishing On Website' => 'docs/publishing-data/create-dataset-website',
         ],
     ],
     'Annotating Data'            => [
         'url'      => 'docs/annotating-data',
         'children' => [
-            'Creating Provenance Via Spreadsheet' => '',
+            'Creating Provenance Via Spreadsheet' => 'docs/spreadsheets',
         ],
     ],
     'Downloading Published Data' => [
@@ -44,25 +44,25 @@ return [
         ],
     ],
     'Reference'        => [
-        'url'      => 'docs/getting-started-old',
+        'url'      => 'docs/reference/getting-started-old',
         'children' => [
-            'Spreadsheets' => 'docs/spreadsheets',
-            'Publishing'   => 'docs/publishing',
-            'Using Globus' => 'docs/globus',
+            'Spreadsheets' => 'docs/reference/spreadsheets',
+            'Publishing'   => 'docs/reference/publishing',
+            'Using Globus' => 'docs/reference/globus',
 //            'Projects'     => 'docs/projects',
             'Projects'     => [
-                'url'      => 'docs/projects',
+                'url'      => 'docs/reference/projects',
                 'children' => [
-                    'Settings' => 'docs/project_settings',
-                    'Members'  => 'docs/project_members',
+                    'Settings' => 'docs/reference/project_settings',
+                    'Members'  => 'docs/reference/project_members',
                 ],
             ],
-            'Experiments'  => 'docs/experiments',
-            'Files'        => 'docs/files',
-            'Samples'      => 'docs/samples',
-            'Processes'    => 'docs/processes',
-            'Workflows'    => 'docs/workflows',
-            'Account'      => 'docs/account',
+            'Experiments'  => 'docs/reference/experiments',
+            'Files'        => 'docs/reference/files',
+            'Samples'      => 'docs/reference/samples',
+            'Processes'    => 'docs/reference/processes',
+            'Workflows'    => 'docs/reference/workflows',
+            'Account'      => 'docs/reference/account',
         ],
     ],
 //    'Jigsaw Docs' => 'https://jigsaw.tighten.co/docs/installation',
