@@ -1,9 +1,10 @@
 #!/bin/bash
 
-ls build_production/docs | while read line
-do
-  echo "Processes ${line}/index.html..."
-  sed -i "s%/docs%/docs/docs%g" build_production/docs/$line/index.html
-  sed -i "s%/assets%/docs/assets%g" build_production/docs/$line/index.html
+find build_production -type d | while read line; do
+  if [ -f ${line}/index.html ]; then
+    echo "Processing ${line}/index.html..."
+    sed -i "s%/docs%/docs/docs%g" "$line"/index.html
+    sed -i "s%/assets%/docs/assets%g" "$line"/index.html
+  fi
 done
 echo Done.
