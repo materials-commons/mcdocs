@@ -34,7 +34,7 @@ return [
     'Annotating Data'            => [
         'url'      => 'docs/annotating-data',
         'children' => [
-            'Creating Provenance Via Spreadsheet' => 'docs/spreadsheets',
+            'Creating Provenance Via Spreadsheet' => 'docs/reference/spreadsheets',
         ],
     ],
     'Downloading Published Data' => [
