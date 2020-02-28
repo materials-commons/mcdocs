@@ -5,11 +5,11 @@ return [
         'url'      => 'docs/getting-started',
         'children' => [
             'Creating Projects On Website' => [
-                'url' => 'docs/getting-started/create-project-website',
+                'url'      => 'docs/getting-started/create-project-website',
                 'children' => [
                     'Adding Users To Projects' => 'docs/getting-started/create-project-website#adding-users',
-                    'Creating An Experiment' => 'docs/getting-started/create-project-website#creating-experiment'
-                ]
+                    'Creating An Experiment'   => 'docs/getting-started/create-project-website#creating-experiment',
+                ],
             ],
         ],
     ],
@@ -17,11 +17,11 @@ return [
         'url'      => 'docs/uploading-data',
         'children' => [
             'Uploading Files On Website' => [
-                'url' => 'docs/uploading-data/uploading-files-website',
+                'url'      => 'docs/uploading-data/uploading-files-website',
                 'children' => [
                     'Website File Uploads' => 'docs/uploading-data/uploading-files-website#website-upload',
-                    'Globus File Uploads' => 'docs/uploading-data/uploading-files-website#globus-upload',
-                ]
+                    'Globus File Uploads'  => 'docs/uploading-data/uploading-files-website#globus-upload',
+                ],
             ],
         ],
     ],
@@ -43,26 +43,22 @@ return [
             'Downloading On Website' => '',
         ],
     ],
-    'Reference'        => [
-        'url'      => 'docs/reference/getting-started-old',
+    'Reference'                  => [
+        'url'      => 'docs/reference',
         'children' => [
             'Spreadsheets' => 'docs/reference/spreadsheets',
             'Publishing'   => 'docs/reference/publishing',
             'Using Globus' => 'docs/reference/globus',
 //            'Projects'     => 'docs/projects',
-            'Projects'     => [
-                'url'      => 'docs/reference/projects',
-                'children' => [
-                    'Settings' => 'docs/reference/project_settings',
-                    'Members'  => 'docs/reference/project_members',
-                ],
-            ],
-            'Experiments'  => 'docs/reference/experiments',
-            'Files'        => 'docs/reference/files',
-            'Samples'      => 'docs/reference/samples',
-            'Processes'    => 'docs/reference/processes',
-            'Workflows'    => 'docs/reference/workflows',
-            'Account'      => 'docs/reference/account',
+            'Projects'     => 'docs/reference/projects',
+            'Project Settings'    => 'docs/reference/project_settings',
+            'Project Users'     => 'docs/reference/project_members',
+            'Experiments' => 'docs/reference/experiments',
+            'Files'       => 'docs/reference/files',
+            'Samples'     => 'docs/reference/samples',
+            'Processes'   => 'docs/reference/processes',
+            'Workflows'   => 'docs/reference/workflows',
+            'Account'     => 'docs/reference/account',
         ],
     ],
 //    'Jigsaw Docs' => 'https://jigsaw.tighten.co/docs/installation',
