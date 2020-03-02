@@ -28,9 +28,3 @@ can show that it produced new samples from the sectioned sample.
 ### Files Tab
 The files tab shows the files associated with the process. As for samples these can be files that the process
 operates on or produces. You can click through to view the underlying file.
-
-### Edit Process
-Not implemented
-
-### Delete Process
-Not implemented

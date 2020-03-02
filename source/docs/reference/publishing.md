@@ -1,19 +1,11 @@
 ---
-title: Publishing
-description: Publishing your research
+title: Publishing On Website
+description: Publishing Overview
 extends: _layouts.documentation
 section: content
 ---
 
-# Publishing
-
-MaterialsCommons allows you to publish your research online. You have control over what is published and can always edit
-or change it as needed. You publish the research in a project. When you publishing using MaterialsCommons your files
-are made available as a Zip archive as well as through Globus. You can have MaterialsCommons associate a DOI with your
-published research. It will manage that DOI for you, including registration and ensuring it is in a searchable index.
-In this way you can use DOI in a paper. This will allow readers of the paper to easily find your published data.
-
-### Publishing your research
+# Publishing your research
 
 MaterialsCommons uses the term "Dataset" for published data. A dataset is a subset of the data in your project. It
 is made up of the files, samples, processes, and workflows that you choose to publish. To publish your research
@@ -27,16 +19,55 @@ opportunity to edit an existing dataset.
 
 ### Creating a new dataset
 
+The create dataset screen contains the required and optional fields for a dataset. On this screen you will need to give the
+dataset a name. The system will automatically fill in the Authors field with the names of all the people who have access
+to your project. This field can be edited.
+
+The experiments field lets you quickly fill out the other assets (workflows, samples and processes) by selecting
+the experiment(s) that this dataset will pull from. When you select one or more experiments the system will automatically
+bring over the workflows, samples and processes from those experiments.
+
+When you are done click on "Save And Add Assets". This will take you to a screen where you can choose the files,
+workflows, samples and processes to include in the dataset.
+
 ![Create Dataset](/assets/img/create-dataset.png)
 
 ### Add Workflow
 
-### Add Files
+The workflow tab lets you select, or de-select the workflows you would like to include in this dataset. If there are
+workflows that are checked that you would like to exclude you can de-select them. You can also add workflows from the
+project that are not already selected.
 
-### Add Samples
+![Add Workflow](/assets/img/datasets/add-workflow.png)
 
-### Adding a DOI
+### Adding Files
 
-### Public vs Private
+The files tab lets you select files and directories to include in the workflow. Selecting a directory will automatically
+select anything below that directory. You can click into a selected directory and de-select files you do not want to
+include.
 
+![Add Files](/assets/img/datasets/add-files.png)
+
+### Adding Samples
+
+The samples tab lets you select or de-select samples that you would like to include in this dataset.
+
+![Add Samples](/assets/img/datasets/add-samples.png)
+
+### Add Processes
+
+If your project has processes in it, this tab will allow you to select or de-select processes to include.
+
+![Add Processes](/assets/img/datasets/add-processes.png)
+
+### Assign a DOI
+
+Materials Commons lets you assign a DOI to your dataset. It will take care of registering this DOI and making it
+searchable. If your dataset doesn't have a DOI then click the "Assign DOI" link.
+
+![Add DOI](/assets/img/datasets/add-doi.png)
+
+After clicking "Assign DOI" the dataset page will update to show the newly minted DOI.
+
+![After Adding DOI](/assets/img/datasets/after-adding-doi.png)
 
