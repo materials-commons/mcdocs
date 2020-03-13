@@ -51,12 +51,12 @@
                 </div>
 
                 <div class="flex flex-1 justify-end items-center text-right md:pl-10">
-                    <a href="/login" class="flex justify-center items-center text-blue-300 h-10 mr-4 px-5 focus:outline-none hover:text-blue-100">
-                        Login
-                    </a>
-                    <a href="/register" class="flex justify-center items-center text-blue-300 h-10 mr-4 px-5 focus:outline-none hover:text-blue-100">
-                        Register
-                    </a>
+{{--                    <a href="/login" class="flex justify-center items-center text-blue-300 h-10 mr-4 px-5 focus:outline-none hover:text-blue-100">--}}
+{{--                        Login--}}
+{{--                    </a>--}}
+{{--                    <a href="/register" class="flex justify-center items-center text-blue-300 h-10 mr-4 px-5 focus:outline-none hover:text-blue-100">--}}
+{{--                        Register--}}
+{{--                    </a>--}}
                     @if ($page->docsearchApiKey && $page->docsearchIndexName)
                         @include('_nav.search-input')
                     @endif
