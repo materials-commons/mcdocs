@@ -22,9 +22,9 @@
                     Read The Docs
                 </a>
 
-                <a href="/about" title="About Materials Commons"
+                <a href="/docs/tour" title="About Materials Commons"
                    class="bg-gray-400 hover:bg-gray-600 text-blue-900 font-normal hover:text-white rounded py-2 px-6">
-                    About Materials Commons
+                    Tour And Screenshots
                 </a>
             </div>
         </div>

@@ -43,6 +43,9 @@ return [
 //            'Downloading On Website' => '',
 //        ],
     ],
+    'Tour' => [
+        'url' => 'docs/tour'
+    ],
     'Reference'                  => [
         'url'      => 'docs/reference',
         'children' => [
