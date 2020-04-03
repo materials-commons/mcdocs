@@ -45,23 +45,8 @@ to describe the different branches and steps.
 
 ------------------------------
 
-## View Excel files online
-<a href="/assets/img/tour/show-excel.png"><img src="/assets/img/tour/show-excel.png"></a>
-
-Excel files are a convenient way to store and organize your data. Excel files that
-are uploaded into Materials Commons can be easily viewed online.
-
-<ul class="list-disc ml-8">
-    <li>View excel files online</li>
-    <li>Supports multiple worksheets</li>
-    <li>No need to download the file to view it</li>
-</ul>
-
-
-------------------------------
-
-## Publish your results
-<a href="/assets/img/tour/published-dataset.png"><img src="/assets/img/tour/published-dataset.png"></a>
+## Publish your research
+<a href="/assets/img/tour/publishing-wizard.png"><img src="/assets/img/tour/publishing-wizard.png"></a>
 
 Easily publish your research data. Users can browse and download the data using Globus or downloading a
 zipfile.
@@ -72,4 +57,19 @@ zipfile.
     <li>Easily create a DOI</li>
     <li>See number of views and downloads</li>
 </ul>
+
+------------------------------
+
+## Published data
+<a href="/assets/img/tour/published-dataset.png"><img src="/assets/img/tour/published-dataset.png"></a>
+
+Your published data can be searched, viewed and downloaded. Integration with Globus means even large datasets
+can be easily downloaded.
+
+<ul class="list-disc ml-8">
+    <li>Workflows help to graphically explain your research</li>
+    <li>License your data and other restrictions</li>
+    <li>Easily download download a zipfile or use Globus</li>
+</ul>
+
 
