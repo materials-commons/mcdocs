@@ -22,11 +22,27 @@ All other rules are optional.
   
 This will look as follows:
 
-| Sample Name | Attribute 1 | Attribute2 |
-| ----------- | ----------- | ---------- |
-|  Sample 1   |   4.0       | 5          |
-|  Sample 2   |   4.1       | 5.01       |
-
+<table class="border-collapse border-2 border-gray-500">
+  <thead>
+    <tr>
+      <th class="border border-gray-400 px-4 py-2 text-gray-800">Sample Name</th>
+      <th class="border border-gray-400 px-4 py-2 text-gray-800">Attribute 1</th>
+      <th class="border border-gray-400 px-4 py-2 text-gray-800">Attribute 2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+        <td class="border border-gray-400 px-4 py-2">Sample 1</td>
+        <td class="border border-gray-400 px-4 py-2">4.0</td>
+        <td class="border border-gray-400 px-4 py-2">5</td>
+    </tr>
+    <tr>
+        <td class="border border-gray-400 px-4 py-2">Sample 2</td>
+        <td class="border border-gray-400 px-4 py-2">4.1</td>
+        <td class="border border-gray-400 px-4 py-2">5.01</td>
+    </tr>
+  </tbody>
+</table>
 
 By default, Attributes are considered process attributes. To see how to specify sample attributes
 see "Specifying Column Types".
@@ -37,10 +53,27 @@ Attribute 1(mm) means that all measurements for Attribute 1 are in mm.
 
 Your spreadsheet would now look as follows:
 
-| Sample Name | Attribute 1 (mm) | Attribute2 (s) |
-| ----------- | ---------------- | -------------- |
-|  Sample 1   |   4.0            | 5              |
-|  Sample 2   |   4.1            | 5.01           |
+<table class="border-collapse border-2 border-gray-500">
+  <thead>
+    <tr>
+      <th class="border border-gray-400 px-4 py-2 text-gray-800">Sample Name</th>
+      <th class="border border-gray-400 px-4 py-2 text-gray-800">Attribute 1 (mm)</th>
+      <th class="border border-gray-400 px-4 py-2 text-gray-800">Attribute 2 (s)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+        <td class="border border-gray-400 px-4 py-2">Sample 1</td>
+        <td class="border border-gray-400 px-4 py-2">4.0</td>
+        <td class="border border-gray-400 px-4 py-2">5</td>
+    </tr>
+    <tr>
+        <td class="border border-gray-400 px-4 py-2">Sample 2</td>
+        <td class="border border-gray-400 px-4 py-2">4.1</td>
+        <td class="border border-gray-400 px-4 py-2">5.01</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Specifying Column Types
 
@@ -53,40 +86,73 @@ the keyword.
 
 Currently Materials Commons understands the following keywords:
 
-| Keyword | Meaning |
-| ------- | ------- |
-| s, sample, sample attribute | Column specifies a sample attribute |
-| p, process | Column specifies a process attribute (remember by default columns are process attributes, so this is optional)|
-| f, file, files | Column specifies a file entry|
-| i, ignore, note, notes | Column is ignored and not processed |
+<table class="border-collapse border-2 border-gray-500">
+  <thead>
+    <tr>
+      <th class="border border-gray-400 px-4 py-2 text-gray-800">Keyword</th>
+      <th class="border border-gray-400 px-4 py-2 text-gray-800">Meaning</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+        <td class="border border-gray-400 px-4 py-2">s, sample, sample attribute</td>
+        <td class="border border-gray-400 px-4 py-2">Column specifies a sample attribute</td>
+    </tr>
+    <tr>
+        <td class="border border-gray-400 px-4 py-2">p, process</td>
+        <td class="border border-gray-400 px-4 py-2">Column specifies a process attribute (remember by default columns are process attributes, so this is optional)</td>
+    </tr>
+    <tr>
+        <td class="border border-gray-400 px-4 py-2">file, files</td>
+        <td class="border border-gray-400 px-4 py-2">Column specifies a file entry</td>
+    </tr>
+    <tr>
+        <td class="border border-gray-400 px-4 py-2">i, ignore, note, notes</td>
+        <td class="border border-gray-400 px-4 py-2">Column is ignored and not processed</td>
+    </tr>
+  </tbody>
+</table>
 
 Here is an example using some of these keywords
 
-| Sample Name | s:GS(mm) | p:Time(sec) | p: Temp (k) | note: | i:is valid? | file:P1/Dir1/Dir2 |
-| ----------- | ---------------- | ------------ | ----------------- | ---- | --------- | --------------- |
-| S1          | 42               | 100          | 400               | some flux | yes | image.jpg |
+<table class="border-collapse border-2 border-gray-500">
+  <thead>
+    <tr>
+      <th class="border border-gray-400 px-4 py-2 text-gray-800">Sample</th>
+      <th class="border border-gray-400 px-4 py-2 text-gray-800">s:GS(mm)</th>
+      <th class="border border-gray-400 px-4 py-2 text-gray-800">p:Time(sec)</th>
+      <th class="border border-gray-400 px-4 py-2 text-gray-800">p: Temp (k)</th>
+      <th class="border border-gray-400 px-4 py-2 text-gray-800">note:</th>
+      <th class="border border-gray-400 px-4 py-2 text-gray-800">i:is valid?</th>
+      <th class="border border-gray-400 px-4 py-2 text-gray-800">file:/Dir1/Dir2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+        <td class="border border-gray-400 px-4 py-2">S1</td>
+        <td class="border border-gray-400 px-4 py-2">42</td>
+        <td class="border border-gray-400 px-4 py-2">100</td>
+        <td class="border border-gray-400 px-4 py-2">400</td>
+        <td class="border border-gray-400 px-4 py-2">some flux</td>
+        <td class="border border-gray-400 px-4 py-2">yes</td>
+        <td class="border border-gray-400 px-4 py-2">image.jpg</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Associating Files
 
 In Materials Commons, you can associate files with your processes and samples. Materials Commons will then show you the
 files associated with the sample/process you are looking at. You can also do this within your spreadsheet. The file:
-keyword lets you specify a column that can contain files (one per cell in the column) with your samples.
+keyword lets you specify a column that can contain files and directories with your samples.
 
 There are a couple of rules to make this work:
 
   1. The files must already be uploaded into your project on Materials Commons
-  2. You must specify the directory path to the file starting with the project name
-  
-### Materials Commons Directory Paths
-
-Materials Commons directories start with your project name. For example, if you have a project named "My 1st Project",
-and a directory "D1" that contains the file "measurements.txt", the path to that file is:
-
-My 1st Project/D1/measurements.txt
-
-A couple of things to note. First ,there is no starting slash, i.e. its "My 1st Project" and not "/My 1st Project". In file system terms,
-"My 1st Project" is the "root" or start of your projects files. Secondly, you separate the remaining parts of the path with a forward 
-slash "/", and not a backward slash "\".
+  2. You must start the path with a slash, for example /docs/file1.txt
+  3. You may specify a directory, in which case all files in that directory will be associated with the sample
+  4. You may use wild cards, for example /docs/*.png
+  5. You can specify multiple entries in a cell by separating them with a semi-colon, for example /docs/*.png;/docs/file1.txt
 
 ### Using the file: keyword
 
@@ -96,42 +162,86 @@ The file: keyword has two forms:
   
 Here are examples for each of these:
 
-file:My 1st Project/D1
+file:/D1
 
-file:Sample Measurements:My 1st Project/D1
+file:Sample Measurements:/D1
 
 The file: keyword is used to specify the directory in a column where files are located. An example spreadsheet would look as follows:
 
-| Sample Name | file:My 1st Project/D1 | file:Sample Images:My 1st Project/Images |
-| ----------- | ---------------------- | --------------------------------- |
-| S1          | measurements.xlsx      | S1.jpeg                           |
-| S2          |                        | S2.jpeg                           |
-| S3          |                        | My 1st Project/Other/S3.jpeg      |
+<table class="border-collapse border-2 border-gray-500">
+  <thead>
+    <tr>
+      <th class="border border-gray-400 px-4 py-2 text-gray-800">Sample</th>
+      <th class="border border-gray-400 px-4 py-2 text-gray-800">file:/D1</th>
+      <th class="border border-gray-400 px-4 py-2 text-gray-800">file:Sample Images:/Images</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+        <td class="border border-gray-400 px-4 py-2">S1</td>
+        <td class="border border-gray-400 px-4 py-2">measurements.xlsx</td>
+        <td class="border border-gray-400 px-4 py-2">F1.jpeg</td>
+    </tr>
+    <tr>
+        <td class="border border-gray-400 px-4 py-2">S2</td>
+        <td class="border border-gray-400 px-4 py-2"></td>
+        <td class="border border-gray-400 px-4 py-2">F2.jpeg</td>
+    </tr>
+    <tr>
+        <td class="border border-gray-400 px-4 py-2">S3</td>
+        <td class="border border-gray-400 px-4 py-2"></td>
+        <td class="border border-gray-400 px-4 py-2">/Others/F3.jpeg</td>
+    </tr>
+    <tr>
+        <td class="border border-gray-400 px-4 py-2">S4</td>
+        <td class="border border-gray-400 px-4 py-2"></td>
+        <td class="border border-gray-400 px-4 py-2">/Images/SEM/*.png</td>
+    </tr>
+  </tbody>
+</table>
 
 There are a couple of things going on in this example. First, you can see an example using each of the forms of the file: keyword. Second,
-you can have blank cells, as S2 and S3 have for the "file:My 1st Project/D1" column. And last, the S3 file entry looks different because
+you can have blank cells, as F2 and F2 have for the "file:/D1" column. Lastly the F3 file entry looks different because
 the cell for the file contains a full path.
 
 The sample S3 entry demonstrates one other feature of the file: column. If you have a cell that contains a "/" in it, then it is assumed
-that it contains a full path name, and the path name specified in the file: keyword is ignored. This is really handy for a couple of
-reasons. It allows you to just put in your file names in your cells (such as S1.jpeg) without having to specify the whole path. And, it
+it contains a full path name, and the path name specified in the file: keyword will be ignored. This is really handy for a couple of
+reasons. It allows you to just put in your file names in your cells (such as S1.jpeg) without having to specify the whole path. Finally, it
 allows you to override this path where you have a special case. Alternatively, for S3 you could have created a 3rd file: column. This is
 also a good approach, but if you only have a single or small number of special case paths, creating an extra column may only serve to
 make your spreadsheet wider without adding much value.
 
 ### Multiple files for a sample
 
-To specify multiple files, you need to have multiple columns. At this time, a cell can only contain a single file entry.
+To specify multiple files, you can either create multiple file cells, or separate the entries in a single cell with
+a semi-colon.
 
 ## Ignoring Columns 
 
 You can tell Materials Commons to ignore a column by using one of the following keywords: i:, ignore:, note:, notes:. These keywords
 are special in that if they are in the only word in a column you can drop the ":". For example:
 
-| Sample Name | i:Valid? | notes |
-| ----------- | -------- | ----- |
-| S1          | No       | Wrong settings on SEM |
-| S2          | Yes      | Best run yet! |
+<table class="border-collapse border-2 border-gray-500">
+  <thead>
+    <tr>
+      <th class="border border-gray-400 px-4 py-2 text-gray-800">Sample</th>
+      <th class="border border-gray-400 px-4 py-2 text-gray-800">i:Valid?</th>
+      <th class="border border-gray-400 px-4 py-2 text-gray-800">notes:</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+        <td class="border border-gray-400 px-4 py-2">S1</td>
+        <td class="border border-gray-400 px-4 py-2">No</td>
+        <td class="border border-gray-400 px-4 py-2">Wrong settings on SEM</td>
+    </tr>
+    <tr>
+        <td class="border border-gray-400 px-4 py-2">S2</td>
+        <td class="border border-gray-400 px-4 py-2">Yes</td>
+        <td class="border border-gray-400 px-4 py-2">Best run yet!</td>
+    </tr>
+  </tbody>
+</table>
 
 In the above spreadsheet, Materials Commons will ignore the i:Valid? and notes columns. The values in these columns will not be processed.
 
@@ -141,10 +251,27 @@ Materials Commons will ignore blank cells when processing your spreadsheet, howe
 in a special way. If the cell is blank, it could mean you still have to get that measurement, or it could mean that it is not appropriate
 to have a value in that cell. Materials Commons will ignore cells that contain the word "blank" or "n/a". For example:
 
-| Sample Name | S:grain size(mm) | P:Temperature(k) |
-| ----------- | -------- | ----- |
-| S1          | N/A       | 400 |
-| S2          | 3      | n/a |
+<table class="border-collapse border-2 border-gray-500">
+  <thead>
+    <tr>
+      <th class="border border-gray-400 px-4 py-2 text-gray-800">Sample</th>
+      <th class="border border-gray-400 px-4 py-2 text-gray-800">S:grain size(mm)</th>
+      <th class="border border-gray-400 px-4 py-2 text-gray-800">P:Temperature(k)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+        <td class="border border-gray-400 px-4 py-2">S1</td>
+        <td class="border border-gray-400 px-4 py-2">N/A</td>
+        <td class="border border-gray-400 px-4 py-2">400</td>
+    </tr>
+    <tr>
+        <td class="border border-gray-400 px-4 py-2">S2</td>
+        <td class="border border-gray-400 px-4 py-2">3</td>
+        <td class="border border-gray-400 px-4 py-2">n/a</td>
+    </tr>
+  </tbody>
+</table>
 
 In the spreadsheet above, Materials Commons will ignore grain size for S1 and Temperature for S2. Remember that Materials Commons recognizes
 special and keywords regardless of their case.
@@ -158,18 +285,45 @@ with the name given in bold.
 
 Sheet: **SEM**
 
-| Sample Name | From | S:grain size(mm) |
-| ----------- | ---- | ---------------- |
-| S1          | Heat Treatment | 4      |
+<table class="border-collapse border-2 border-gray-500">
+  <thead>
+    <tr>
+      <th class="border border-gray-400 px-4 py-2 text-gray-800">Sample</th>
+      <th class="border border-gray-400 px-4 py-2 text-gray-800">From</th>
+      <th class="border border-gray-400 px-4 py-2 text-gray-800">S:grain size(mm)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+        <td class="border border-gray-400 px-4 py-2">S1</td>
+        <td class="border border-gray-400 px-4 py-2">Heat Treatment</td>
+        <td class="border border-gray-400 px-4 py-2">4</td>
+    </tr>
+  </tbody>
+</table>
 
 ---------------
 
 Sheet: **Heat Treatment**
 
-| Sample Name | From | P:Time(m) | P:Temp(k) |
-| ----------- | ---- | --------- | --------- |
-| S1          |      | 30        | 400       |
-
+<table class="border-collapse border-2 border-gray-500">
+  <thead>
+    <tr>
+      <th class="border border-gray-400 px-4 py-2 text-gray-800">Sample</th>
+      <th class="border border-gray-400 px-4 py-2 text-gray-800">From</th>
+      <th class="border border-gray-400 px-4 py-2 text-gray-800">P:Time(m)</th>
+      <th class="border border-gray-400 px-4 py-2 text-gray-800">P:Temp(k)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+        <td class="border border-gray-400 px-4 py-2">S1</td>
+        <td class="border border-gray-400 px-4 py-2"></td>
+        <td class="border border-gray-400 px-4 py-2">30</td>
+        <td class="border border-gray-400 px-4 py-2">400</td>
+    </tr>
+  </tbody>
+</table>
 
 To construct the workflow you need
 to have multiple worksheets in your spreadsheet. When you have multiple worksheets you can tell Materials Commons to use the second column as specifying the preceding step.
@@ -184,6 +338,39 @@ Create Samples -> Heat Treatment -> SEM
 
 When constructing a spreadsheet that specifies a workflow, column 1 and column 2 are treated specially. Otherwise only
 column one is treated specially.
+
+## Global Values
+
+In some cases you may have values that are shared across all the entries in a worksheet. For example your "Heat Treatment"
+worksheet uses the same temperature for all rows. Rather than repeating this you can optionally create a worksheet named
+'mc constants'. In this worksheet you can specify values that apply to all rows of a worksheet. The format for this
+worksheet is as follows:
+
+<table class="border-collapse border-2 border-gray-500">
+  <thead>
+    <tr>
+      <th class="border border-gray-400 px-4 py-2 text-gray-800">Sheet</th>
+      <th class="border border-gray-400 px-4 py-2 text-gray-800">Attribute</th>
+      <th class="border border-gray-400 px-4 py-2 text-gray-800">Value</th>
+    </tr>
+  </thead>
+</table>
+
+For example:
+<table class="border-collapse border-2 border-gray-500">
+  <thead>
+  </thead>
+  <tbody>
+  <tr>
+    <td class="border border-gray-400 px-4 py-2 text-gray-800">Heat Treatment</td>
+    <td class="border border-gray-400 px-4 py-2 text-gray-800">p: Temperature (c)</td>
+    <td class="border border-gray-400 px-4 py-2 text-gray-800">400</td>
+  </tr>
+  </tbody>
+</table>
+
+This would specify that every sample in the "Heat Treatment" worksheet has process attribute
+"Temperature" with units "c" and value "400".
 
 ## Loading a Spreadsheet into Materials Commons
 

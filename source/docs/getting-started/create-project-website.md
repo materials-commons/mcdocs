@@ -65,4 +65,4 @@ Materials Commons supports loading spreadsheets to create experiments. This has 
 data. With a few small modifications to your spreadsheet Materials Commons can create your samples, processes and even your
 workflow.
 
-To get started [click here](spreadsheets#overview).
+To get started [click here](/docs/reference/spreadsheets#overview).
