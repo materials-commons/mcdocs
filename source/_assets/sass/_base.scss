@@ -141,13 +141,6 @@ pre {
     }
 }
 
-table {
-    @apply: .table-auto;
-    td {
-        @apply: .border .border-gray-400;
-    }
-}
-
 ::selection {
     @apply .bg-blue-500;
     @apply .text-white;
