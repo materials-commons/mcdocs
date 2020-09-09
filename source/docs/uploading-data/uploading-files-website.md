@@ -5,10 +5,6 @@ extends: _layouts.documentation
 section: content
 ---
 
-# TOC
-* [Upload Files Via Website](#website-upload)
-* [Upload Files Using Globus](#globus-upload)
-
 # <a id="website-upload"></a> Website File Uploader
 
 The Materials Commons UI provides a way for creating directories and uploading files onto the Materials Commons server.

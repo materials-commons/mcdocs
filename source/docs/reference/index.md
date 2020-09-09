@@ -5,7 +5,7 @@ extends: _layouts.documentation
 section: content
 ---
 
-# Terminology
+# Glossary
 
 * [Account](account)
 * [Experiments](experiments)

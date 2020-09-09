@@ -5,12 +5,6 @@ extends: _layouts.documentation
 section: content
 ---
 
-# TOC
-
-* [Create Project](#create-project)
-* [Adding Users to Project](#adding-users)
-* [Creating An Experiment](#creating-experiment)
-
 # <a id="create-project"></a> Creating A Project
 
 When you first login to Materials Commons you will be presented with a list of all your projects. To create your

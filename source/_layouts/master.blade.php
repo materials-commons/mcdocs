@@ -43,7 +43,7 @@
         <header class="flex items-center shadow bg-white border-b h-18 py-4 bg-blue-700" role="banner">
             <div class="container flex items-center max-w-8xl mx-auto px-4 lg:px-8">
                 <div class="flex items-center">
-                    <a href="/" title="{{ $page->siteName }} home" class="inline-flex items-center">
+                    <a href="/docs" title="{{ $page->siteName }} home" class="inline-flex items-center">
                         <img class="h-8 md:h-10 mr-3" src="/assets/img/logo.svg" alt="{{ $page->siteName }} logo" />
 
                         <h1 class="text-lg md:text-2xl text-yellow-100 font-semibold hover:text-yellow-100 my-0 pr-4">{{ $page->siteName }}</h1>
@@ -51,6 +51,9 @@
                 </div>
 
                 <div class="flex flex-1 justify-end items-center text-right md:pl-10">
+                    <a href="/" class="flex justify-center items-center text-blue-300 h-10 mr-4 px-5 focus:outline-none hover:text-blue-100">
+                        Goto MaterialsCommons.Org
+                    </a>
 {{--                    <a href="/login" class="flex justify-center items-center text-blue-300 h-10 mr-4 px-5 focus:outline-none hover:text-blue-100">--}}
 {{--                        Login--}}
 {{--                    </a>--}}

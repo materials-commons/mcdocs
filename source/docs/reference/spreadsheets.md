@@ -11,6 +11,9 @@ which stands for (E)xtract, (T)ransform, and (L)oad. As long as you follow a few
 rules, Materials Commons can read your spreadsheet and automatically create the samples,
 processing steps, measurements and process attributes.
 
+
+
+
 ## Format
 
 There are 3 required rules to follow when constructing a spreadsheet for Materials Commons to process.

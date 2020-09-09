@@ -19,8 +19,9 @@ return [
             'Uploading Files On Website' => [
                 'url'      => 'docs/uploading-data/uploading-files-website',
                 'children' => [
-                    'Website File Uploads' => 'docs/uploading-data/uploading-files-website#website-upload',
-                    'Globus File Uploads'  => 'docs/uploading-data/uploading-files-website#globus-upload',
+                    'Website File Uploads'          => 'docs/uploading-data/uploading-files-website#website-upload',
+                    'Globus File Uploads'           => 'docs/uploading-data/uploading-files-website#globus-upload',
+                    'Uploading Using A Spreadsheet' => 'docs/reference/spreadsheets',
                 ],
             ],
         ],
@@ -34,7 +35,7 @@ return [
     'Annotating Data'            => [
         'url'      => 'docs/annotating-data',
         'children' => [
-            'Creating Provenance Via Spreadsheet' => 'docs/reference/spreadsheets',
+            'Uploading Data Using A Spreadsheet' => 'docs/reference/spreadsheets',
         ],
     ],
     'Downloading Published Data' => [
@@ -43,10 +44,10 @@ return [
 //            'Downloading On Website' => '',
 //        ],
     ],
-    'Tour' => [
-        'url' => 'docs/tour'
+    'Tour'                       => [
+        'url' => 'docs/tour',
     ],
-    'Reference'                  => [
+    'Glossary'                   => [
         'url'      => 'docs/reference',
         'children' => [
             'Account'          => 'docs/reference/account',
