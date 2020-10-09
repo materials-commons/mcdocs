@@ -14,4 +14,4 @@ In addition to the Zip File all datasets are available for download using Globus
 of providing a reliable download that can run in the background. In the screenshot below you can see the two different
 links to download the dataset.
 
-![Download Published Dataset Files](/assets/img/datasets/download-published-dataset-files.png)
+<img class="bordered" alt="Download Published Dataset Files" src="/assets/img/datasets/download-published-dataset-files.png">

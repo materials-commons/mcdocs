@@ -15,13 +15,13 @@ This will take you to a page that allows you to explore your files and directori
 will bring you to page where you can upload one or more files. The files will be uploaded into the Materials Commons directory you were
 viewing when you selected the "+ Add Files" link.
 
-![Files](/assets/img/files.png)
+<img class="bordered" alt="Files" src="/assets/img/files.png">
 
 Click in or drag files into the box. Once you have selected files click on the green "Upload" button to
 upload the files to Materials Commons. After your files are uploaded you will be returned to the last directory you
 were viewing.
 
-![Upload Files](/assets/img/upload-files.png)
+<img class="bordered" alt="Upload Files" src="/assets/img/upload-files.png">
 
 # <a id="globus-upload"></a> Globus File Upload
 
@@ -40,13 +40,13 @@ After that you can click on the "Globus Uploads" link in the sidebar. This will 
 for a name and an (optional) description. Because you can have more than 1 file upload outstanding the name and description
 will help you to tell them apart.
 
-![Create Globus Upload](/assets/img/create-globus-upload.png)
+<img class="bordered" alt="Create Globus Upload" src="/assets/img/create-globus-upload.png">
 
 Once you have filled out the name and optional description the page will change to show you a link to take you to Globus.
 Each Globus upload requests gets a unique spot to upload its files to. In this way no two upload requests can interfere
 with each other. Click on the "Goto Globus" to be take to the Globus app to being your upload.
 
-![Show Globus Upload](/assets/img/show-globus-upload.png)
+<img class="bordered" alt="Show Globus Upload" src="/assets/img/show-globus-upload.png">
 
 ### View Outstanding Globus Uploads
 
@@ -54,7 +54,7 @@ MaterialsCommons keeps track of the Globus Uploads you have created. You can fin
 project by clicking on "Upload Status" in the sidebar. This will take you to a page with all the outstanding uploads
 for the current project.
 
-![Globus Upload Status](/assets/img/upload-status.png)
+<img class="bordered" alt="Globus Upload Status" src="/assets/img/upload-status.png">
 
 There are a number of actions you can take on this page.
 
@@ -72,7 +72,7 @@ The "DONE" button will mark a Globus upload as finished. Make sure all your file
 do this. The DONE button will take you to a page with a link to check your Globus uploads. Clicking on 
 "View Globus Upload Activity" will take you to a Globus page that will show you your file upload activity.
 
-![Mark Upload Done](/assets/img/mark-globus-upload-done.png)
+<img class="bordered" alt="Mark Upload Done" src="/assets/img/mark-globus-upload-done.png">
 
 Marking a upload as done will cause MaterialsCommons to import all your file uploads into the project associated with
 that upload request.
@@ -84,4 +84,4 @@ Since your files have not yet been imported into your Project this won't affect 
 take you to a page with alink to check your Globus uploads. Clicking on 
 "View Globus Upload Activity" will take you to a Globus page that will show you your file upload activity.
 
-![Delete Upload](/assets/img/delete-globus-upload.png)
+<img class="bordered" alt="Delete Upload" src="/assets/img/delete-globus-upload.png">

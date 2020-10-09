@@ -26,4 +26,4 @@ the parentheses show the next step to their right, as opposed to below their ste
         Heat Treat Sample?(no)->SEM->Analyze
 ```
 
-![Example Workflow](/assets/img/workflow-help.png)
+<img class="bordered" alt="Example Workflow" src="/assets/img/workflow-help.png">

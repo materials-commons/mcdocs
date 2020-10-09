@@ -10,7 +10,7 @@ section: content
 If you have already uploaded a spreadsheet then the create experiment page will also present a dropdown of spreadsheets
 you can load.
 
-![Create Experiment From Spreadsheet](/assets/img/create-experiment-from-spreadsheet.png)
+<img class="bordered" src="/assets/img/create-experiment-from-spreadsheet.png" alt="Create Experiment From Spreadsheet">
 
 Materials Commons supports loading spreadsheets to create experiments. This has the advantage of working with your existing
 data. With a few small modifications to your spreadsheet Materials Commons can create your samples, processes and even your

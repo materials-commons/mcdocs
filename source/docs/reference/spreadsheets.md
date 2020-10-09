@@ -383,5 +383,5 @@ create a new experiment. To do this go to your project and select create experim
 If you have a spreadsheet loaded then the create experiment page will present a dropdown of the spreadsheets. Select
 one to use it to populate your experiment.
 
-![Create Experiment From Spreadsheet](/assets/img/create-experiment-from-spreadsheet.png)
+<img class="bordered" alt="Create Experiment From Spreadsheet" src="/assets/img/create-experiment-from-spreadsheet.png">
 

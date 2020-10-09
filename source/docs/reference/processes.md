@@ -11,7 +11,7 @@ steps you represent in your workflow. An example of a process in a experiment is
 that describe things about the process. The Annealing process might have both a Time and a Temperature attribute
 associated with it.
 
-![Process Page](/assets/img/processes/process-page.png)
+<img class="bordered" alt="Process Page" src="/assets/img/processes/process-page.png">
 
 ### Settings Tab
 The settings tab will show you the process settings. These represent attributes about the process. For example the voltage

@@ -10,7 +10,7 @@ You can store and retrieve your files in MaterialsCommons. You can use associate
 and Projects. In this way you can better describe the relationships in your research and how a piece of data relates
 back to your processing steps and samples.
 
-![Files Page](/assets/img/files.png)
+<img class="bordered" alt="Files Page" src="/assets/img/files.png">
 
 ### Globus
 If you have a large number of files, or large files to upload then see the [Globus section](../globus). Globus
@@ -23,7 +23,7 @@ If you have a large number of files to upload, or files that are
 large in size, then you should use Globus for your uploads. The MaterialsCommons uploader is useful for small numbers
 and small sizes. You can upload files up to 75MB in size from this page.
 
-![Add Files](/assets/img/upload-files.png)
+<img class="bordered" alt="Add Files" src="/assets/img/upload-files.png">
 
 ### Create Directory
 You can create a new directory in MaterialsCommons file tree. To create a new directory click on the new
@@ -31,7 +31,7 @@ You can create a new directory in MaterialsCommons file tree. To create a new di
 
 A directory requires a name and an optional description. The name cannot contain the '/' (forward slash) character.
 
-![Create Directory](/assets/img/files/create-directory.png)
+<img class="bordered" alt="Create Directory" src="/assets/img/files/create-directory.png">
 
 ### Move Files
 Files and directories can be moved to different directories. To move files and/or directories select the 
@@ -41,4 +41,4 @@ dropdown is searchable.
 
 Moving a directory will recursively move everything underneath it. This can be an expensive operation.
 
-![Move Files](/assets/img/files/move-files.png)
+<img class="bordered" alt="Move Files" src="/assets/img/files/move-files.png">

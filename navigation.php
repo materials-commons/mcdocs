@@ -32,6 +32,9 @@ return [
             'Publishing On Website' => 'docs/publishing-data/create-dataset-website',
         ],
     ],
+    'Communities' => [
+        'url' => 'docs/communities'
+    ],
     'Annotating Data'            => [
         'url'      => 'docs/annotating-data',
         'children' => [

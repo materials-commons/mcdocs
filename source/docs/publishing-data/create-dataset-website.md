@@ -12,7 +12,7 @@ is made up of the files, samples, processes, and workflows that you choose to pu
 you will need to create a new dataset or modify an existing one. Clicking in the sidebar on the "Publish" link
 will take you to a page listing your current datasets. You can create new datasets from this page.
 
-![Project Dataset List](/assets/img/project-datasets-list.png)
+<img class="bordered" alt="Project Dataset List" src="/assets/img/project-datasets-list.png">
 
 Clicking on "+ Create Dataset" allows you to create a new dataset. Clicking on existing datasets gives you the
 opportunity to edit an existing dataset.
@@ -30,7 +30,7 @@ bring over the workflows, samples and processes from those experiments.
 When you are done click on "Save And Add Assets". This will take you to a screen where you can choose the files,
 workflows, samples and processes to include in the dataset.
 
-![Create Dataset](/assets/img/create-dataset.png)
+<img class="bordered" alt="Create Dataset" src="/assets/img/create-dataset.png">
 
 ### Add Workflow
 
@@ -38,7 +38,7 @@ The workflow tab lets you select, or de-select the workflows you would like to i
 workflows that are checked that you would like to exclude you can de-select them. You can also add workflows from the
 project that are not already selected.
 
-![Add Workflow](/assets/img/datasets/add-workflow.png)
+<img class="bordered" alt="Add Workflow" src="/assets/img/datasets/add-workflow.png">
 
 ### Adding Files
 
@@ -46,28 +46,28 @@ The files tab lets you select files and directories to include in the workflow. 
 select anything below that directory. You can click into a selected directory and de-select files you do not want to
 include.
 
-![Add Files](/assets/img/datasets/add-files.png)
+<img class="bordered" alt="Add Files" src="/assets/img/datasets/add-files.png">
 
 ### Adding Samples
 
 The samples tab lets you select or de-select samples that you would like to include in this dataset.
 
-![Add Samples](/assets/img/datasets/add-samples.png)
+<img class="bordered" alt="Add Samples" src="/assets/img/datasets/add-samples.png">
 
 ### Add Processes
 
 If your project has processes in it, this tab will allow you to select or de-select processes to include.
 
-![Add Processes](/assets/img/datasets/add-processes.png)
+<img class="bordered" alt="Add Processes" src="/assets/img/datasets/add-processes.png">
 
 ### Assign a DOI
 
 Materials Commons lets you assign a DOI to your dataset. It will take care of registering this DOI and making it
 searchable. If your dataset doesn't have a DOI then click the "Assign DOI" link.
 
-![Add DOI](/assets/img/datasets/add-doi.png)
+<img class="bordered alt="Add DOI" src="/assets/img/datasets/add-doi.png">
 
 After clicking "Assign DOI" the dataset page will update to show the newly minted DOI.
 
-![After Adding DOI](/assets/img/datasets/after-adding-doi.png)
+<img class="bordered" alt="After Adding DOI" src="/assets/img/datasets/after-adding-doi.png">
 

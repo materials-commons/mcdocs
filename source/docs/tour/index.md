@@ -6,7 +6,7 @@ section: content
 ---
 
 ## Multiple Projects
-<a href="/assets/img/tour/projects-list.png"><img src="/assets/img/tour/projects-list.png"></a>
+<a href="/assets/img/tour/projects-list.png"><img class="bordered" src="/assets/img/tour/projects-list.png"></a>
 
 Organize your research into multiple projects. Easily add new projects.
 <ul class="list-disc ml-8">
@@ -18,7 +18,7 @@ Organize your research into multiple projects. Easily add new projects.
 -------------------
 
 ## Project Home
-<a href="/assets/img/tour/project-home.png"><img src="/assets/img/tour/project-home.png"></a>
+<a href="/assets/img/tour/project-home.png"><img class="bordered" src="/assets/img/tour/project-home.png"></a>
 
 Within a project you can save files and data, organize your different research experiments, and
 easily publish your results.
@@ -46,7 +46,7 @@ to describe the different branches and steps.
 ------------------------------
 
 ## Publish your research
-<a href="/assets/img/tour/publishing-wizard.png"><img src="/assets/img/tour/publishing-wizard.png"></a>
+<a href="/assets/img/tour/publishing-wizard.png"><img class="bordered" src="/assets/img/tour/publishing-wizard.png"></a>
 
 Easily publish your research data. Users can browse and download the data using Globus or downloading a
 zipfile.
@@ -61,7 +61,7 @@ zipfile.
 ------------------------------
 
 ## Published data
-<a href="/assets/img/tour/published-dataset.png"><img src="/assets/img/tour/published-dataset.png"></a>
+<a href="/assets/img/tour/published-dataset.png"><img class="bordered" src="/assets/img/tour/published-dataset.png"></a>
 
 Your published data can be searched, viewed and downloaded. Integration with Globus means even large datasets
 can be easily downloaded.
