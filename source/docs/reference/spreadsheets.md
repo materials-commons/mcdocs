@@ -98,7 +98,7 @@ Currently Materials Commons understands the following keywords:
   </thead>
   <tbody>
     <tr>
-        <td class="border border-gray-400 px-4 py-2">s, sample, sample attribute</td>
+        <td class="border border-gray-400 px-4 py-2">s, sample</td>
         <td class="border border-gray-400 px-4 py-2">Column specifies a sample attribute</td>
     </tr>
     <tr>
